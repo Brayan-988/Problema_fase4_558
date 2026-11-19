@@ -332,7 +332,7 @@ class AppSoftwareFJGUI:
         btn_registrar = ttk.Button(frm_form, text="Validar y registrar cliente", style="Primary.TButton", command=self.registrar_cliente_gui)
         btn_registrar.grid(row=4, column=0, columnspan=2, pady=14)
 
-        frm_lista = ttk.LabelFrame(pestana, text=" Clientes Registrados en Listas Internas ")
+        frm_lista = ttk.LabelFrame(pestana, text=" Clientes registrados en listas internas ")
         frm_lista.pack(fill="both", expand=True, padx=20, pady=10)
 
         self.listbox_clientes = tk.Listbox(
